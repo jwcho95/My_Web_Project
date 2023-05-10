@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./SignUpForm.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <header>
+        <h1>회원가입</h1>
+    </header>
+
+    <main>
+        <img src="./images/camera.JPG">
+
+        <form>
+            <div>
+                <span class="user_id">아이디</span> <br>
+                <input type="text" maxlength="10"> <br>
+                <span class="user_pw">비밀번호</span> <br>
+                <input type="password" placeholder="비밀번호를 입력해주세요" maxlength="10"> <br>
+                <span class="user_pw check_user_pw">비밀번호 확인</span> <br>
+                <input type="password" placeholder="비밀번호를 다시 입력해주세요" maxlength="10"> <br>
+                <span id="user_name">이름</span> <br>
+                <input type="text" maxlength="3"> <br>
+                <span class="user_email">이메일</span> <br>
+                <input type="email" placeholder="이메일을 입력해주세요" required>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="가입하기">
+            </div>
+            <br>
+        </form>
+    </main>
+
+    <footer>
+        환영합니다
+    </footer>
+</body>
+</html>

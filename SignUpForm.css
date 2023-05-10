@@ -1,0 +1,18 @@
+span.user_id {
+    color: green;
+}
+div span.user_email{
+    color: aqua;
+}
+
+#user_name {
+    color: blueviolet;
+}
+
+.user_pw {
+    color: chartreuse;
+}
+
+.check_user_pw {
+    color: darkblue;
+}
