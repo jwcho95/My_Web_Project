@@ -1,0 +1,42 @@
+/* 모든 요소 선택 */
+* {
+    color: darkorange;
+}
+
+/* 같은 선택자라면 겹치는 부분은 위에 있는 것이 무시됨 */
+* {
+    color: blue;
+}
+
+p {
+    color: brown;
+}
+
+/* class 선택자 */
+/* 태그보다 우선순위가 높음 */
+/* 클래스가 blue */
+.blue {
+    color: lightblue;
+}
+
+/* p 태그이면서 클래스가 blue인 경우 */
+/* 선택자는 구체적일수록 우선순위가 높음 */
+p.blue {
+    color: deeppink;
+}
+
+/* p 태그이면서 class가 blue이면서 dark인 경우 */
+p.blue.dark {
+    color: red;
+}
+
+/* id 선택자 */
+/* id가 가장 우선순위 */
+#red {
+    color: chartreuse;
+}
+
+/* 여러 가지를 한번에 선택할 경우 */
+span, .blue, #red {
+    
+}
