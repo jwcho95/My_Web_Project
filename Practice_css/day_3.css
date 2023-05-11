@@ -1,0 +1,58 @@
+/* .title {
+    color: violet;
+}
+
+.box1 .title {
+    color: yellow;
+}
+
+.content {
+    font-size: 8px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 600;
+} */
+
+/* css에서 and는 공백이고, or는 ,이다. */
+/* .title#headline {
+    color: aqua;
+} */
+
+/* 기본 값으로 꼭 넣어야 하는 것 */
+* {
+    box-sizing: border-box;
+}
+
+.box1 {
+    box-sizing: content-box; /* 컨텐츠의 모양을 유지 */
+    border: 3px solid blue;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    /* padding-top: 50px;
+    padding-left: 150px; */
+}
+
+.box2 {
+    box-sizing: border-box; /* 컨텐츠보다는 기존 박스의 사이즈를 유지 */
+    border: 3px solid red;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    /* padding-top: 50px; 컨텐츠 내부의 여백 */
+    /* margin: 30px; 컨텐츠 외부의 여백 */
+}
+
+.box3 {
+    border: 3px solid green;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* 컨텐츠의 방향을 조절 */
+    align-items: center; /* 컨텐츠의 상하를 조절 */
+    justify-content: center; /* 컨텐츠의 좌우를 조절 */
+}

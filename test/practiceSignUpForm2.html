@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./practiceSignUpFormCss.css">
+    <title>회원가입</title>
+</head>
+<body>
+    <main>
+        <!-- 바탕화면 -->
+        <div class="container">
+            
+            <!-- 회원가입 화면 -->
+            <div class="wrapper">
+                
+                <!-- 회원가입 제목 -->
+                <div class="HomePageTitle">
+                    <span class="title_style">OOO 사이트 회원가입</span>
+                </div>
+                
+                <!-- 인증번호 전까지의 개인정보 입력란 -->
+                <div class="signUpContent">
+                    <form>
+                        <div class="mainContent">
+                            <div class="user_information">
+                                <input class="user_information_style" type="email" size="31" placeholder="이메일을 입력해 주세요."> <br>
+                            </div>
+
+                            <div class="user_information">
+                                <input class="user_information_style" type="text" size="31" placeholder="이름을 입력해 주세요."> <br>
+                            </div>
+                            
+                            <div class="user_information">
+                                <input class="user_information_style" type="password" size="31" placeholder="비밀번호를 입력해 주세요."> <br>
+                            </div>
+                            
+                            <div class="user_information">
+                                <input class="user_information_style" type="password" size="31" placeholder="비밀번호를 다시 입력해 주세요."> <br>
+                            </div>
+                            
+                            <div class="user_information">
+                                <input class="user_information_style" type="tel" size="5" maxlength="3"> - <input class="user_information_style" type="tel" size="5" maxlength="4"> - <input class="user_information_style" type="tel" size="5" maxlength="4">
+                            </div>
+                        </div>
+
+                        
+                        <!-- 인증번호 관련 작업란 -->
+                        <div class="phoneAndCertification">
+                            <div class="certificationNum user_information">
+                                <span>000000</span>
+                                <button style="width: 100px;" disabled>인증번호 전송</button> <br>
+                            </div>
+
+                            <div class="certificationTime user_information">
+                                <span>3:00</span>
+                                <button style="width: 100px;" disabled>인증 완료</button>
+                            </div>
+                        </div>
+
+                        <!-- 인증번호 후의 개인정보 입력란 -->
+                        <div class="otherInformation">
+                            <select name="user_location" id="user_location" class="user_information_style">
+                                <option disabled selected>지역을 선택하세요.</option>
+                                <option value="Seoul">서울</option>
+                                <option value="DaeJeon">대전</option>
+                                <option value="DaeGu">대구</option>
+                                <option value="Pusan">부산</option>
+                            </select>
+                            <br>
+                            <div class="gender">
+                                <input type="radio" name="user_gender" value="woman">여성
+                                <input type="radio" name="user_gender" value="man">남성
+                            </div>
+                        </div>
+
+                        <!-- 제출 버튼 -->
+                        <div class="user_information submitButton">
+                            <input type="submit" value="가입하기" style="height: 40px; width: 246px;">
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

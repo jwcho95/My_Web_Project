@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 바탕화면 */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+/* 회원가입 화면 */
+.wrapper {
+    border: 1px blue solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 20px gray;
+}
+
+/* 회원가입 제목 */
+.HomePageTitle {
+    width: 61%;
+    height: 10%;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.title_style {
+    font-size: 21px;
+    color: blue;
+    font-weight: 700;
+}
+
+/* 인증번호 전의 입력란의 스타일 */
+.signUpContent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    height: 55%;
+}
+
+/* 인증번호 작업란 */
+.phoneAndCertification {
+    text-align: right;
+    padding-right: 36px;
+}
+
+/* 인증번호 후의 입력란 */
+.otherInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+/* 입력란의 전체적인 스타일(마진) */
+.user_information {
+    margin: 10px;
+}
+
+/* 지역 입력란 */
+#user_location {
+    width: 73%;
+}
+
+/* 제출 버튼 */
+.submitButton {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* 입력란의 전체적인 스타일 높이 및 테두리 */
+.user_information_style {
+    height: 30px;
+    border: 1px gray solid;   
+}
