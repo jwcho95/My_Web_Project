@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.signInAndSignUp{
+    display: inline-flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.header_logo {
+    cursor: pointer;
+}
+
+.signIn {
+    cursor: pointer;
+}
+
+.signUp {
+    cursor: pointer;
+}
