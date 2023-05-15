@@ -1,0 +1,67 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.signInForm {
+    border: 1px solid blue;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signInContent {
+    width: 85%;
+    height: 85%;
+}
+
+.signInLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    color: blue;
+    font-size: 25px;
+    font-weight: 800;  
+}
+
+.signInLogo img {
+    height: 70%;
+}
+
+.inputID {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputID input {
+    height: 40px;
+    border: 1px cadetblue solid;
+}
+
+.inputPW {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputPW input {
+    height: 40px;
+    border: 1px cadetblue solid;
+}
+
+.signInBtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.signInBtn input {
+    height: 40px;
+    border-radius: 12px;
+    background-color: rgb(147, 222, 224);
+}
