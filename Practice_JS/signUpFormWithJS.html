@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <script>
+        function call(){
+            let userInformation = {
+                userEmail : document.querySelector("#user_email").value,
+                userName : document.querySelector("#user_name").value,
+                userPhoneNum : document.querySelector("#user_phoneNum1").value + "-" + document.querySelector("#user_phoneNum2").value + "-" + document.querySelector("#user_phoneNum3").value,
+                userLocation : document.querySelector("#user_location").value,
+                userGender : document.querySelector("input[type=radio][name=user_gender]:checked").value
+            }
+            console.log(userInformation);
+            // onload(location.href="./index.html");
+        }
+    </script>
+    <title>회원가입</title>
+</head>
+<body>
+    <main>
+        <!-- 바탕화면 -->
+        <div class="container">
+            
+            <!-- 회원가입 화면 -->
+            <div class="wrapper">
+                
+                <!-- 회원가입 제목 -->
+                <div class="HomePageTitle">
+                    <span class="title_style">oz코딩스쿨 회원가입</span>
+                </div>
+                
+                <!-- 인증번호 전까지의 개인정보 입력란 -->
+                <div class="signUpContent">
+                    <form onsubmit="return false">
+                        <div class="mainContent">
+                            <div class="user_information">
+                                <input id="user_email" class="user_information_style" type="email" size="31" placeholder="이메일을 입력해 주세요."> <br>
+                            </div>
+
+                            <div class="user_information">
+                                <input id="user_name" class="user_information_style" type="text" size="31" placeholder="이름을 입력해 주세요."> <br>
+                            </div>
+                            
+                            <div class="user_information">
+                                <input id="user_pw" class="user_information_style" type="password" size="31" placeholder="비밀번호를 입력해 주세요."> <br>
+                            </div>
+                            
+                            <div class="user_information">
+                                <input class="user_information_style" type="password" size="31" placeholder="비밀번호를 다시 입력해 주세요."> <br>
+                            </div>
+                            
+                            <div class="user_information">
+                                <input id="user_phoneNum1" class="user_information_style" type="tel" size="5" maxlength="3"> - <input id="user_phoneNum2" class="user_information_style" type="tel" size="5" maxlength="4"> - <input id="user_phoneNum3" class="user_information_style" type="tel" size="5" maxlength="4">
+                            </div>
+                        </div>
+
+                        
+                        <!-- 인증번호 관련 작업란 -->
+                        <div class="phoneAndCertification">
+                            <div class="certificationNum user_information">
+                                <span>000000</span>
+                                <button style="width: 100px;">인증번호 전송</button> <br>
+                            </div>
+
+                            <div class="certificationTime user_information">
+                                <span>3:00</span>
+                                <button style="width: 100px;">인증 완료</button>
+                            </div>
+                        </div>
+
+                        <!-- 인증번호 후의 개인정보 입력란 -->
+                        <div class="otherInformation">
+                            <select name="user_location" id="user_location" class="user_information_style">
+                                <option disabled selected>지역을 선택하세요.</option>
+                                <option value="서울">서울</option>
+                                <option value="대전">대전</option>
+                                <option value="대구">대구</option>
+                                <option value="부산">부산</option>
+                            </select>
+                            <br>
+                            <div class="gender">
+                                <input type="radio" name="user_gender" value="여성">여성
+                                <input type="radio" name="user_gender" value="남성">남성
+                            </div>
+                        </div>
+
+                        <!-- 제출 버튼 -->
+                        <div class="user_information submitButton">
+                            <input onclick="call()" type="submit" value="가입하기" style="height: 40px; width: 246px;">
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
