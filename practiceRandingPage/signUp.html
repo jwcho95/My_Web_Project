@@ -14,14 +14,25 @@
         function clickBtn_certificationNum() {
             event.preventDefault();
 
-            randNum = Math.floor(Math.random()*999999+1);
-            while(randNum > 1000000 || randNum <= 99999){
+            let certificationTime = 180;
+
+            do{
                 randNum = Math.floor(Math.random()*999999+1);
-            }
+            }while(randNum > 1000000 || randNum <= 99999);
             
             document.getElementById("random_number").innerText = randNum;
 
             document.getElementById("certification_number_button").disabled = true;
+
+            // document.getElementById("minutes").innerText = Math.floor(certificationTime/60);
+            // document.getElementById("seconds").innerText = certificationTime % 60;
+
+            for(var i = 180; i > 0; i--){
+                setTimeout(function(){
+                    console.log(i);
+                }, 1000);
+            }
+            
         }
     </script>
     <title>회원가입</title>
@@ -107,7 +118,7 @@
                             <br>
 
                             <div class="certificationTime">
-                                <span class="labelStyle">3:00</span>
+                                <span class="labelStyle"><span id="minutes">3</span>:<span id="seconds">00</span></span>
                                 &nbsp;
                                 &nbsp;
                                 <button class="certificationBtnStyle">인증 완료</button>

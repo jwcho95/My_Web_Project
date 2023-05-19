@@ -1,0 +1,15 @@
+@import url("./style/TotalStyle/TotalPart.css");
+@import url("./style/LatestPartStyle/LatestPart.css");
+@import url("./style/animationPart/animationPart.css");
+@import url("./style/Stories&News/pp.css");
+
+/* * {
+    box-sizing: border-box;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
