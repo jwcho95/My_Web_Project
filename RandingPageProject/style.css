@@ -2,6 +2,7 @@
 @import url("./style/LatestPartStyle/LatestPart.css");
 @import url("./style/animationPart/animationPart.css");
 @import url("./style/Stories&News/pp.css");
+@import url("./style/CategoryPartStyle/categories.css");
 
 /* * {
     box-sizing: border-box;
@@ -10,6 +11,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
