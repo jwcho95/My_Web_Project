@@ -1,0 +1,426 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .headerWrap {
+    box-sizing: border-box;
+    border: 3px solid blue;
+    padding: 0px;
+    margint: 0px;
+} */
+
+
+.headerCover {
+    background: #fff;
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+    height: 80px;
+    top: 0;
+}
+
+.headerContainer {
+    flex-wrap: nowrap;
+    display: flex;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.navContainer {
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    width: 1000px;
+    /* margin-left: 20px;
+    margin-top: 10px; */
+    
+
+
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+
+
+.logo img {
+    display: inline-block;
+    width: 184px;
+    height: 44.86px;
+    box-sizing: border-box;
+    display: inline-flex;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 60px;
+
+}
+
+
+.fixed1 {
+    position: fixed;
+    bottom: 35px;
+    left: 0px;
+    
+}
+
+
+
+.navMenu {
+    box-sizing: border-box;
+    line-height: 1.3;
+    color: #000;;
+    display: flex;
+    list-style-position: inside;
+
+}
+
+
+.fixed2 {
+    position: fixed;
+    left: 200px;
+    margin-top: 10px;
+
+    margin-left: 60px;
+}
+
+
+
+#spreadUnderline {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 0;
+    position: relative;
+    color: black;
+}
+
+
+#spreadUnderline:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: relative;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+
+#spreadUnderline:hover:after { 
+    width: 100%;
+    left: 0; 
+}
+
+
+
+.navMenu li {
+    text-align: center;
+    display: inline-block;
+    font-size: 21px;
+    margin-left: 30px;
+    font-weight: 340;
+
+}
+
+
+.navWidget {
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+
+
+.rollingContainer {
+    width: 100%;
+    height: 80%;
+    /* padding-right: 3px; */
+    margin-top: 25px;
+    /* display: inline-flex; */
+    padding-right: 40px;
+
+}
+
+
+/* .rollingControl {
+    padding-bottom: 30px;
+    margin: 0;
+} */
+
+/* 배너 컨테이너 */
+.rollingBanner{
+    position: relative;
+    display: inline-block;
+    height: 26px;
+    font-size: 20px;
+    letter-spacing: -1px;
+    padding: 2px 0px;
+    box-sizing: border-box;
+    background-color: white;
+    font-weight: bold;
+    left: 90px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+
+
+}
+
+/* 롤링 배너 */
+.rollingBanner .rollingWrap{
+    position: relative;
+    width: auto;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+.rollingBanner ul{
+    list-style: none;
+}
+
+
+.rollingBanner li{
+    position: absolute;
+    top: -36px;
+    left: 0;
+}
+
+
+/* 이전, 현재, 다음 롤링 배너 표시 */
+.rollingBanner li.prev{
+    top: 36px;
+    transition: top 0.9s ease;
+}
+
+
+.rollingBanner li.current{
+    top: 0;
+    transition: top 0.9s ease;
+}
+
+
+.rollingBanner li.next{
+    top: -36px;
+}
+
+
+
+.rollingBanner a{
+    display: block;
+    display: -webkit-box;
+    text-decoration: none;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+    color: #000;
+}
+
+
+/* 반대 방향으로 진행 */
+.rollingBanner.reverse li.prev{
+    top: -36px;
+    transition: top 0.9s ease;
+}
+
+
+.rollingBanner.reverse li.next{
+    top: 36px;
+    transition: top 0.9s ease;
+}
+
+
+
+.imgLangControl {
+    display: block;
+    /* justify-content: space-evenly; */
+    /* align-content: center; */
+    /* width: 50px;
+    height: 30px; */
+    /* margin-top: 18px; */
+
+}
+
+
+.searchImg {
+    width: 50px;
+    height: 18px;
+    margin-top: 30px;
+    display: inherit;
+    padding-right: 90px;
+    margin-left: 60px;
+}
+
+.langImg {
+    position: fixed;
+    width: 50px;
+    height: 18px;
+    margin-top: 0px;
+    margin-left: 0;
+    padding-left: 100px;
+    top: 30px;
+
+}
+
+
+/* 일단 가려놓고 선택하면 뜨도록 변경해야함 */
+.langUlControl {
+    display: none;
+}
+
+
+.widget-hash {
+    display: flex;
+    position: relative;
+    height: 100%;
+    align-items: center;
+}
+
+
+.textBox1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-flex;
+    box-sizing: border-box;
+    margin-top: 145px;
+    padding-top: 45px;
+    margin-left: 42px;
+    /* border: 3px solid red; */
+}
+
+
+.textboxCtl {
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.textBox2 {
+    position: relative;
+    display: block;
+    font-size: 23px;
+    display: inline-block;
+    box-sizing: border-box;
+    top: 48px;
+    right: 495px;
+    font-weight: 380;
+    /* padding-left: 143px; */
+    /* margin-left: 145px; */
+
+    /* border: 3px solid blue; */
+}
+
+
+.imgBox {
+    position: relative;
+    width: 1402.02px;
+    height: 788.68px;
+    margin-left: 43px;
+    padding-top: 0px;
+    top: 43px;
+    /* border: 3px solid rgb(21, 240, 203); */
+    overflow:hidden;
+
+}
+
+
+.imgBox { transform:scale(1); transition:transform 0.5s linear;}
+
+.imgBox:hover { 
+  transform:scale(1.05);             /*  default */
+  -webkit-transform:scale(1.05);     /*  크롬 */
+  -moz-transform:scale(1.05);       /* FireFox */
+  transition: ease 1s;
+}
+
+
+
+.imgCtl {
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+
+/* 선택하면 파란색으로 */
+::selection {
+    background: rgba(0,0,0,0.3);
+    text-shadow: none;
+    color: #1d1dc5;
+}
+
+
+
+  .pop {
+    flex-wrap: wrap;
+    /* margin-top: 50px; */
+    padding-left: 730px;
+    margin-right: 80px;
+    letter-spacing: 10;  
+
+  }
+
+
+  .popFirst {
+    display : block;
+    font-size: 17px;
+    margin-top : 5em;
+    text-decoration: none;
+    position: relative;
+    animation: fadeInUp 1s;
+  }
+
+
+  .popSecond {
+    display : block;
+    margin-top : 35px;
+    font-size: 13px;
+    text-decoration: none;
+    position: relative;
+    animation: fadeInUp 5s;
+  }
+
+  
+  @keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+/* 수정사항 */
+
+.mainPagePart {
+    height: 1300px;
+}
+
+.mainPageMainPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logoCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
