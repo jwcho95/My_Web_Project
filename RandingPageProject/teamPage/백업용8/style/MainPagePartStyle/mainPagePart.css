@@ -1,0 +1,54 @@
+.mainPagePart main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainPageImageWrapper {
+    overflow: hidden;
+}
+
+.mainPageImageWrapper .mainPageImage {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s linear;
+}
+
+.mainPageImageWrapper:hover {
+    .mainPageImage {
+        transform: scale(1.05);
+    }
+}
+
+.mainPageTitle1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.mainPageTitle2 {
+    font-size: 21px;
+}
+
+.mainPageFooter div .mainPageFooterText1 {
+    font-weight: 500;
+}
+
+.mainPageFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerPart {
+    display: flex;
+    position: sticky;
+    z-index: 2;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerPartLeftItem {
+    display: inline-block;
+    position: relative;
+}

@@ -1,0 +1,31 @@
+.latestPart {
+    width: 95%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.StoriesPart {
+    width: 95%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.NewsPart {
+    width: 95%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPagePart {
+    width: 95%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.categoryPart {
+    width: 100%;
+}

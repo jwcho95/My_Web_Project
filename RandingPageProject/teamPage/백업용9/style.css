@@ -1,0 +1,23 @@
+@import url("./style/TotalStyle/TotalPart.css");
+@import url("./style/LatestPartStyle/LatestPart.css");
+@import url("./style/animationPart/animationPart.css");
+@import url("./style/Stories&News/pp.css");
+@import url("./style/MainPagePartStyle/mainPagePart.css");
+@import url("./CSS/test.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("./style/FooterPartStyle/footerPart.css");
+@import url("./categories.css");
+
+
+/* * {
+    box-sizing: border-box;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}

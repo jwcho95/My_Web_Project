@@ -1,0 +1,1 @@
+TotalPart.css, style.css, categories.css index.html, style.css 수정되었으니 필히 확인
