@@ -110,6 +110,10 @@
     padding-right: 15px;
 }
 
+.contentTitle:hover {
+    cursor: pointer;
+}
+
 .rightSideContentLine {
     border-top: 1px solid black;
     width: 100%;

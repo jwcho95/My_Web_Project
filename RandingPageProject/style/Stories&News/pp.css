@@ -144,40 +144,40 @@ ul { list-style-type : none;
 
 .storiesN1, .newsN1{
     position: relative;
-    animation: fadeInUp 2s;
+    /* animation: fadeInUp 2s; */
 }
 
 #p1{ position: relative;
-    animation: fadeInUp 1s;
+    /* animation: fadeInUp 1s; */
 }
 #p2{ position: relative;
-    animation: fadeInUp 1.4s;
+    /* animation: fadeInUp 1.4s; */
 } 
 #p3
 { position: relative;
-    animation: fadeInUp 1.6s;
+    /* animation: fadeInUp 1.6s; */
 } 
 #p4{
      position: relative;
-    animation: fadeInUp 1.8s;
+    /* animation: fadeInUp 1.8s; */
 } 
 #p5{
      position: relative;
-    animation: fadeInUp 2s;
+    /* animation: fadeInUp 2s; */
 }
 #p6{
      position: relative;
-    animation: fadeInUp 2.2s;
+    /* animation: fadeInUp 2.2s; */
 }
 #p7{ position: relative;
-    animation: fadeInUp 1.2s;
+    /* animation: fadeInUp 1.2s; */
 }
 #p8{
      position: relative;
-    animation: fadeInUp 1.4s;
+    /* animation: fadeInUp 1.4s; */
 } 
 #p9{ position: relative;
-    animation: fadeInUp 1.6s;
+    /* animation: fadeInUp 1.6s; */
 }
 
  @keyframes fadeInUp{

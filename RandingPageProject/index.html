@@ -9,21 +9,166 @@
     <title>Design Samsung</title>
 </head>
 <body>
-    <section class="container">
 
+    <div id="wrap" class="bodyWrap">
+        <header class="headerWrap" style="left: 0px;">
+          <div class="headerCover">
+              <div class="headerContainer block1">
+              <div class="navContainer">
+                  <div class="logoCon">
+                  <h1 class="logo">
+                      <!-- 새로고침 어디로 할지 다시 정하기 onclick -->
+                      <a onClick="window.location.reload()" style="cursor: pointer;">
+                          <img class="fixed1" src="./img/header-logo-samsung-design-svg.svg" alt="logo">
+                      </a>
+                  </h1>
+                  </div>
+                  <nav class="navMenu">
+                      <ul class="fixed2">
+                          <!-- 수정필요 팀원들 만들면 링크 첨삭하기 -->
+                          <li><a id="spreadUnderline" href="https://design.samsung.com/kr/our-stories.html">Our Stories</a> </li>
+                          <li><a id="spreadUnderline" href="https://design.samsung.com/kr/about-us.html">About Us</a></li>
+                          <li><a id="spreadUnderline" href="https://design.samsung.com/kr/career.html">Career</a></li>
+                          <li><a id="spreadUnderline" href="https://design.samsung.com/kr/news.html">News</a></li>
+                      </ul>
+                  </nav>
+              </div>
+               <div class="navWidget">
+                  <div class="widgetHash">
+                      <div class="rollingContainer">
+                          <div class="rollingControl">
+                              <div class="rollingBanner">
+                                  <div class="rollingWrap">
+                                      <ul> 
+                                          <!-- 팀원들 것으로 연결 -->
+                                          <li><a href="/kr/sort-by.html#list-1">#Sustainable_Design </a></li>
+                                          <li class="next"></li><a href="/kr/sort-by.html#list-2">#History_of_Refrigerators</p></a></li>
+                                          <li class="current"><a href="/kr/sort-by.html#list-3">#Interview_with_Designers</a></li>
+                                          <li><a href="/kr/sort-by.html#list-4">#Path_of_Innovation</a></li>
+                                          <li class="prev"><a href="/kr/sort-by.html#list-5">#Colorful_Thoughts</a></li>
+                                  </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="imgControl">
+                      <div class="widgetSearch">
+                          <a><img src="./img/header-search-icn2022.svg" class="searchImg"></a>
+                      </div>
+                  <div class="widgetLang">
+                      <a>
+                      <img  class="langImg" src="./img/header-lang-icn2022.svg" alt="search">
+                      </a>
+                      <ul class="langUlControl">
+                          <li class="isActive">
+                              <a href="javascript:;">KR</a> 
+                              <!--영어 한글 버전 바꾸기 어떻게 하지..?-->
+                          </li>
+                          <li>
+                              <a href="javascript:goToChangeVersion();">EN</a>
+                          </li>
+                      </ul>
+                  </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        </header>
+    </div>
+
+    <section class="container">
         <!-- header 부분 -->
-        <section class="headerPart">
-            <header>
-                
+        
+        
+        
+        
+        <!-- <section class="headerPart">
+            <header> -->
+                <!-- 예비용 -->
+                <!-- <nav class="headerPartLeft">
+                    <ul>
+                        <li class="headerPartLeftItem">Samsung Design</li>
+                        <li class="headerPartLeftItem">Our Stories</li>
+                        <li class="headerPartLeftItem">About us</li>
+                        <li class="headerPartLeftItem">Career</li>
+                        <li class="headerPartLeftItem">News</li>
+                    </ul>
+                </nav>
+                <section class="headerPartRight">
+
+                </section>
             </header>
         </section>
+        <br>
+        <br>
+        <br>
+        <br> -->
 
         <!-- 메인 페이지 상단 부분 -->
         <section class="mainPagePart">
-            <main>
-                <img src="./images/testImage.jpg" style="width: 100%; height: 1000px;">
-            </main>
+            <!-- 예비용 -->
+            <!-- <main>
+                <div class="mainPageTitle">
+                    <span class="mainPageTitle1">Design for All Abilities</span> <br>
+                    <span class="mainPageTitle2">새로운 경험을 만드는 창의적인 사람들 이야기</span>
+                </div>
+                <div class="mainPageImageWrapper">
+                    <img class="mainPageImage" src="./images/testImage.jpg" style="width: 100%;">
+                </div>
+                <div class="mainPageFooter">
+                    <div class="mainPageFooterText">
+                    <span class="mainPageFooterText1">일상 속 불편함을 디지털 기기를 활용해 새로운 가능성으로 바꾸는 사람들이 있습니다. 삼성 제품과 함께<br> 창의적인 경험을 만들어 나가는 이들의 이야기를 소개합니다.</span>
+                    <br><br>
+                    <span class="footerOfText">Our Stories  |  May 18, 2023</span>
+                    </div>
+                </div>
+            </main> -->
+
+            <!-- <div>
+                <h2 class="textBox1">Design for All Abilities</h2>
+                <div class="textboxControl">
+                    <div class="textBox2">새로운 경험을 만드는 창의적인 사람들의 이야기</div>
+                </div>
+                  <div class="img-container">
+                      <a href="https://design.samsung.com/kr/contents/all-abilities/">
+                <img class="imgBox" src="./img/all-abilities-keyvisual.jpg" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                </a>
+                </div>
+            </div> -->
+
+            <main class="mainPageMainPart">
+                <div class="tboxCtl">
+                    <h2 class="textBox1">Design for All Abilities</h2>
+                        <div class="textBox2">새로운 경험을 만드는 창의적인 사람들의 이야기</div>
+                </div>
+                <div class="imgCtl">
+                    <a href="https://design.samsung.com/kr/contents/all-abilities/">
+                    <img class="imgBox" src="./img/all-abilities-keyvisual.jpg" onmouseenter="zoomIn(event)" onmouseleave="zoomOut(event)">
+                    </a>
+                </div>
+                <div class="pop">
+                    <div  class="popFirst">
+                        <p>일상 속 불편함을 디지털 기기를 활용해 새로운 가능성으로 바꾸는 사람들이 있습니다. 삼성 제품과 함께</p>
+                        <p>창의적인 경험을 만들어 나가는 이들의 이야기를 소개합니다.</p>
+                    </div>
+                    <div  class="popSecond">
+                        <span>Our Stories&nbsp;&nbsp;|&nbsp;&nbsp;May 18, 2023</span>
+                    </div>
+                </div>
+              </main>
+
+
         </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
         
         <!-- Latest 부분 -->
         <section class="latestPart" id="latestPartID">
@@ -33,7 +178,7 @@
                 <div class="latestPartLeftAndRight">
                     <div class="latestPartLeft">
                         <div class="leftSideImage">
-                            <img class="leftSideImageMainImage" src="./images/LatestPartImages/leftSideImg.jpg">
+                            <img class="leftSideImageMainImage" src="./images/LatestPartImages/leftSideImg.jpg" onclick="goToNewPage('https://design.samsung.com/kr/contents/bespoke-family-hub-plus/')">
                         </div>
                         <div class="leftImageTitle">
                             Bigger Screen, Deeper Thoughts
@@ -50,7 +195,7 @@
                     <div class="latestPartRight">
                         <div class="rightSideContentScroll">
                             <div class="rightSideContent rightSideContent1">
-                                <div class="contentTitle">
+                                <div class="contentTitle" onclick="goToNewPage('https://design.samsung.com/kr/contents/w23-wallpaper/')"">
                                     <div class="imgOfContent">
                                         <img class="imgOfContentMainImage" src="./images/LatestPartImages/rightSideImg_1.jpg">
                                     </div>
@@ -70,7 +215,7 @@
                             <div class="rightSideContent rightSideContentLine"></div>
                             
                             <div class="rightSideContent rightSideContent2">
-                                <div class="contentTitle">
+                                <div class="contentTitle" onclick="goToNewPage('https://design.samsung.com/kr/contents/news/index.jsp?id=34')">
                                     <div class="imgOfContent">
                                         <img class="imgOfContentMainImage imgOfContentMainImage2" src="./images/LatestPartImages/rightSideImg_2.jpg">
                                     </div>
@@ -92,7 +237,7 @@
                             <div class="rightSideContent rightSideContentLine"></div>
                             
                             <div class="rightSideContent rightSideContent3">
-                                <div class="contentTitle">
+                                <div class="contentTitle" onclick="goToNewPage('https://design.samsung.com/kr/contents/news/index.jsp?id=33')">
                                     <div class="imgOfContent">
                                         <img class="imgOfContentMainImage" src="./images/LatestPartImages/rightSideImg_3.png">
                                     </div>
@@ -114,7 +259,7 @@
                             <div class="rightSideContent rightSideContentLine"></div>
                             
                             <div class="rightSideContent rightSideContent4">
-                                <div class="contentTitle">
+                                <div class="contentTitle" onclick="goToNewPage('https://design.samsung.com/kr/contents/news/index.jsp?id=32')">
                                     <div class="imgOfContent">
                                         <img class="imgOfContentMainImage" src="./images/LatestPartImages/rightSideImg_4.png">
                                     </div>
@@ -213,6 +358,8 @@
                     <a href="#" class="btnPush"><br /><p>More</p></a>                  
                 </div>
             </div>
+        <!-- 필히 수정해야 하는 부분  /section 추가 -->
+        </section>
         <br>
         <br>
         <br>
@@ -232,6 +379,7 @@
 
         <!-- 카테고리 부분 -->
         <section class="categoryPart">
+            
             <div class="background">
                 <div class="titleBox">
                  <div class="title">Sort by#</div>
@@ -240,91 +388,297 @@
             <div class="wrapperCategories">
                 <div class="categories">
                     <div class="cate">#Sustainable_Design</div>
-                    <input class="btn btn1" type="checkbox">
-                    <input class="btn2 btn" type="checkbox">
+                    <input type="button" class="btn" onclick="getShow()">
                 </div>
-                <div class="hate close">
+                <div id="close">
                 <div class="firstBox">
                     <div class="first">삼성전자는 지속 가능한 디자인을 끊임 없이 노력합니다. 삶을 의미 있게 개선하고 환경에 긍정적인 영향을 주는 디자인 스토리를 공개합니다.</div>
                 </div>
             <div class="secondBox">
             <div class="box1">
                 <div class="text">
-                    <div class="a1"><img class="image1" src="./images/CategoryPartImages/create the essentials.jpeg" alt="image"></div>
-                    <!-- 수정사항 -->
-                    <div class="textBox">
+                    <div class="a1"><img class="image1" src="./images/1/create the essentials.jpeg" alt="image"></div>
                     <div class="english1 English">Create the Essentials</div>
                     <div class="ko1 Ko">삼성 갤럭시 S23 시리즈 디자인스토리</div>
                     <div class="date1 Date">Feb 16, 2023</div>
-                    </div>
                 </div>
             </div>    
             <div class="box2">
                 <div class="text">
-                    <div class="a1"><img class="image2" src="./images/CategoryPartImages/the wave;순환의 물결.jpeg" alt="image"></div>
-                    
-                    <!-- 수정사항 -->
-                    <div class="textBox">
+                    <div class="a1"><img class="image2" src="./images/1/the wave;순환의 물결.jpeg" alt="image"></div>
                     <div class="english2 English">The Wave:순환의 물결</div>
                     <div class="ko2 Ko">자연스럽게 흐르는 자원 순환</div>
                     <div class="date2 Date">Nov 11, 2022</div>
-                    </div>
                 </div>
             </div>
             <div class="box3">
                 <div class="text">
-                    <div class="a2"><img class="image3" src="./images/CategoryPartImages/together for a better tomorrow.jpeg" alt="image"></div>
-                    
-                    <!-- 수정사항 -->
-                    <div class="textBox">
+                    <div class="a1"><img class="image3" src="./images/1/together for a better tomorrow.jpeg" alt="image"></div>
                     <div class="english3 English">Together for a Better<br>Tomorrow</div>
                     <div class="ko3 Ko">우리가 바라보는 더 나은 내일 Part3</div>
                     <div class="date3 Date">Nov 09, 2021</div>
-                    </div>
                 </div>
             </div>
             </div>
             <div class="thirdBox">
                 <div class="box4">
                     <div class="text">
-                        <div class="a1"><img class="image4" src="./images/CategoryPartImages/form follows sound.jpeg" alt="image"></div>
-                        
-                        <!-- 수정사항 -->
-                        <div class="textBox">
+                        <div class="a2"><img class="image4" src="./images/1/form follows sound.jpeg" alt="image"></div>
                         <div class="english4 English">Form Follows Sound</div>
                         <div class="ko4 Ko">삼성 갤럭시 버즈 프로 디자인스토리</div>
                         <div class="date4 Date">Feb 4, 2021</div>
-                        </div>
                     </div>
                 </div>
                 <div class="box5">
                     <div class="text">
-                        <div class="a1"><img class="image5" src="./images/CategoryPartImages/empowering a new future part 2.jpeg" alt="image"></div>
-                        
-                        <!-- 수정사항 -->
-                        <div class="textBox">
+                        <div class="a2"><img class="image5" src="./images/1/empowering a new future part 2.jpeg" alt="image"></div>
                         <div class="english5 English">Empowering a New<br>Future Part 2</div>
                         <div class="ko5 Ko">지속 가능한 사회를 위한 디자인</div>
                         <div class="date5 Date">Oct 24, 2020</div>
-                        </div>
                     </div>
                 </div>    
                 <div class="box6">
                     <div class="text">
-                        <div class="a2"><img class="image6" src="./images/CategoryPartImages/remake it meaningful;gallery&exhibition.jpeg" alt="image"></div>
-                        
-                        <!-- 수정사항 -->
-                        <div class="textBox">
-                        <div class="english6 English">Remake It Meaningful:Gallery<br> & Exhibition</div>
-                        <div class="ko6 Ko">2014 디자인삼성 아이디어 페스티벌</div>
-                        <div class="date6 Date">Dec 15, 2014</div>
-                        </div>
+                        <div class="a2"><img class="image6" src="./images/1/remake it meaningful;gallery&exhibition.jpeg" alt="image"></div>
+                        <div class="english6 English">Remake It Meaningful:<br>Gallery & Exhibition</div>
+                        <div class="ko6">2014 디자인삼성 아이디어 페스티벌</div>
+                        <div class="date6">Dec 15, 2014</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="line2"></div>
+            <!--#Sustainable_Design-->
+            <div class="wrapperCategories">
+                <div class="categories">
+                    <div class="cate">#History_of_Refrigerators</div>
+                    <input type="button" class="btn2" onclick="getShow2()">
+                </div>
+                <div id="close_2">
+                <div class="firstBox">
+                    <div class="first">부엌의 시대적 흐름에 따라 냉장고는 기능과 모양을 달리합니다. 10년 전에는 어떤 라이프스타일을 고려한 냉장고를 만들었을까요? 어제와 오늘의 냉장고 디자인 스토리를 확인해보세요.</div>
+                </div>
+            <div class="secondBox">
+            <div class="box1">
+                <div class="text">
+                    <div class="a1"><img class="image1" src="./images/2/six side of the cube.jpg" alt="image"></div>
+                    <div class="english1 English">Six Sides of the Cube</div>
+                    <div class="ko1 Ko">삼성 BESPOKE 큐브 냉장고 디자인스토리</div>
+                    <div class="date1 Date">Oct 29, 2020</div>
+                </div>
+            </div>    
+            <div class="box2">
+                <div class="text">
+                    <div class="a1"><img class="image2" src="./images/2/made to your taste.jpg" alt="image"></div>
+                    <div class="english2 English">Made to Your Taste</div>
+                    <div class="ko2 Ko">삼성 비스포크 패밀리허브 UX 디자인스토리</div>
+                    <div class="date2 Date">Aug 13, 2020</div>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="text">
+                    <div class="a1"><img class="image3" src="./images/2/everyone's taste counts.jpg" alt="image"></div>
+                    <div class="english3 English">Everyone's Taste Counts</div>
+                    <div class="ko3 Ko">삼성 BESPOKE 냉장고 디자인스토리</div>
+                    <div class="date3 Date">Jun 27, 2019</div>
+                </div>
+            </div>
+            </div>
+            <div class="thirdBox">
+                <div class="box4">
+                    <div class="text">
+                        <div class="a2"><img class="image4" src="./images/2/sortby-flat-style.jpg" alt="image"></div>
+                        <div class="english4 English">What Is Flat Style Design</div>
+                        <div class="ko4 Ko">삼성 Flat Style 냉장고 디자인 스토리</div>
+                        <div class="date4 Date">Jun 21, 2018</div>
+                    </div>
+                </div>
+                <div class="box5">
+                    <div class="text">
+                        <div class="a2"><img class="image5" src="./images/2/the brilliant.jpg" alt="image"></div>
+                        <div class="english5 English">The Brilliant Presence of<br>the Kitchen</div>
+                        <div class="ko5 Ko">빌트인 냉장고 BRR9000M 디자인스토리</div>
+                        <div class="date5 Date">Apr 24, 2018</div>
+                    </div>
+                </div>    
+                <div class="box6">
+                    <div class="text">
+                        <div class="a2"><img class="image6" src="./images/2/sortby-showcase.jpg" alt="image"></div>
+                        <div class="english6 English">Design for All Family<br>Members</div>
+                        <div class="ko6">삼성 쇼케이스 냉장고 디자인스토리</div>
+                        <div class="date6">Jun 25, 2014</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="line2"></div>
+            <!--#History_of_Refrigerators-->
+            <div class="wrapperCategories">
+                <div class="categories">
+                    <div class="cate">#Interview_with_Designers</div>
+                    <input type="button" class="btn3" onclick="getShow3()">
+                </div>
+                <div id="close_3">
+                <div class="firstBox">
+                    <div class="first">삼성 디자인의 내일을 만들어가는 디자이너들에게 물었습니다. 지금껏 어떤삶을 살아왔나요? 어디서에 영감을 받고, 어떤 관점에서 디자인을 하나요?</div>
+                </div>
+            <div class="secondBox">
+            <div class="box1">
+                <div class="text">
+                    <div class="a1"><img class="image1" src="./images/3/opening a new chapter.jpg" alt="image"></div>
+                    <div class="english1 English">Opening a New Chapter</div>
+                    <div class="ko1 Ko">2022년 삼성전가 시입 디자이너 인터뷰</div>
+                    <div class="date1 Date">Dec 15, 2022</div>
+                </div>
+            </div>    
+            <div class="box2">
+                <div class="text">
+                    <div class="a1"><img class="image2" src="./images/3/what it means to be a designer.jpg" alt="image"></div>
+                    <div class="english2 English">What It Means to Be a<br>Designer</div>
+                    <div class="ko2 Ko">지금,삼성전자의 젋은 디자이너</div>
+                    <div class="date2 Date">Sep 06, 2018</div>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="text">
+                    <div class="a1"><img class="image3" src="./images/3/hello, samsung designer!.jpg" alt="image"></div>
+                    <div class="english3 English">Hello,Samsung Designer!</div>
+                    <div class="ko3 Ko">삼성전자 디자이너를 만나다 Part1</div>
+                    <div class="date3 Date">Sep 19, 2017</div>
+                </div>
+            </div>
+            </div>
+            <div class="thirdBox2">
+                <div class="box4">
+                    <div class="text">
+                        <div class="a2"><img class="image4" src="./images/3/portraits of young designers.jpg" alt="image"></div>
+                        <div class="english4 English">Portraits of Young<br>Designers</div>
+                        <div class="ko4 Ko">삼성전자 신입 디자이너 인터뷰</div>
+                        <div class="date4 Date">Dec 17, 2015</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="line2"></div>
+            <!--#Interview_with_Designers-->
+            <div class="wrapperCategories">
+                <div class="categories">
+                    <div class="cate">#Path_of_Innovation</div>
+                    <input type="button" class="btn4" onclick="getShow4()">
+                </div>
+                <div id="close_4">
+                <div class="firstBox">
+                    <div class="first">모바일 첫 엣지 디스플레이,인덕션의 가상 불꽃,가구 같은 TV,첫 무풍 에어컨...익숙해진 제품의 처음에는 늘 혁신과 참신함이 따랐습니다.혁신을 이끌었던 제품의 디자인 스토리를 되집어보세요.</div>
+                </div>
+            <div class="secondBox">
+            <div class="box1">
+                <div class="text">
+                    <div class="a1"><img class="image1" src="./images/4/sortby-vl-series.jpg" alt="image"></div>
+                    <div class="english1 English">Living with Sound</div>
+                    <div class="ko1 Ko">삼성 VL3,VL5 디자인스토리</div>
+                    <div class="date1 Date">Jan 11, 2018</div>
+                </div>
+            </div>    
+            <div class="box2">
+                <div class="text">
+                    <div class="a1"><img class="image2" src="./images/4/sortby-powerbot-starwars.jpg" alt="image"></div>
+                    <div class="english2 English">I'm your Powerbot<br>POWERbot</div>
+                    <div class="ko2 Ko">스타워즈 에디션 디자인스토리</div>
+                    <div class="date2 Date">Apr 12, 2016</div>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="text">
+                    <div class="a1"><img class="image3" src="./images/4/sortby-q9500.jpg" alt="image"></div>
+                    <div class="english3 English">Weekends at Home</div>
+                    <div class="ko3 Ko">Q9500:사려깊은 바람에 대한 생각</div>
+                    <div class="date3 Date">Apr 12, 2016</div>
+                </div>
+            </div>
+            </div>
+            <div class="thirdBox">
+                <div class="box4">
+                    <div class="text">
+                        <div class="a2"><img class="image4" src="./images/4/sortby-serif-tv.jpg" alt="image"></div>
+                        <div class="english4 English">TV for the World We Live<br>In</div>
+                        <div class="ko4 Ko">Serif TV 디자인스토리</div>
+                        <div class="date4 Date">Oct 15, 2015</div>
+                    </div>
+                </div>
+                <div class="box5">
+                    <div class="text">
+                        <div class="a2"><img class="image5" src="./images/4/sortby-induction.jpg" alt="image"></div>
+                        <div class="english5 English">Joyful Cooking<br>Experience</div>
+                        <div class="ko5 Ko">가상불꽃 인덕션레인지 디자인스토리</div>
+                        <div class="date5 Date">Jun 11, 2015</div>
+                    </div>
+                </div>    
+                <div class="box6">
+                    <div class="text">
+                        <div class="a2"><img class="image6" src="./images/4/sortby-galaxy-s6.jpg" alt="image"></div>
+                        <div class="english6 English">Beauty Meets Purpose</div>
+                        <div class="ko6">갤럭시 S6 디자인 정신</div>
+                        <div class="date6">Mar 31, 2015</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="line2"></div>
+        </div>
+            <!--#Path_of_Innovation-->
+            <div class="wrapperCategories">
+                <div class="categories">
+                    <div class="cate">#Colorful_Thoughts</div>
+                    <input type="button" class="btn5" onclick="getShow5()">
+                </div>
+                <div id="close_5">
+                <div class="firstBox">
+                    <div class="first">제품의 크고 작은 부분에 담긴 모든 색은 수많은 디자이너들의 고민을 거쳐 만들어집니다.명도와 채도를 세심하게 조절하고, 다른 색과 섬세히 조합해 나가는 무한한 고민의 과정을 따라가봅니다.</div>
+                </div>
+            <div class="secondBox">
+            <div class="box1">
+                <div class="text">
+                    <div class="a1"><img class="image1" src="./images/5/sortby-bespoke-design.jpg" alt="image"></div>
+                    <div class="english1 English">Make Your Own Lifestyle</div>
+                    <div class="ko1 Ko">모두가 주인공이 되는 비스포크 디자인</div>
+                    <div class="date1 Date">Nov 30, 2021</div>
+                </div>
+            </div>    
+            <div class="box2">
+                <div class="text">
+                    <div class="a1"><img class="image2" src="./images/5/sortby-galaxy-watch-4.jpg" alt="image"></div>
+                    <div class="english2 English">Flow Around Circle</div>
+                    <div class="ko2 Ko">삼성 갤럭시 워치4 디자인스토리</div>
+                    <div class="date2 Date">Aug 14, 2021</div>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="text">
+                    <div class="a1"><img class="image3" src="./images/5/sortby-blue-story.jpg" alt="image"></div>
+                    <div class="english3 English">Into the Blue</div>
+                    <div class="ko3 Ko">삼성의 블루에 담긴 디자이너의 생각</div>
+                    <div class="date3 Date">Apr 14, 2020</div>
+                </div>
+            </div>
+            </div>
+            <div class="thirdBox2">
+                <div class="box4">
+                    <div class="text">
+                        <div class="a2"><img class="image4" src="./images/5/sortby-color-vacuum.jpg" alt="image"></div>
+                        <div class="english4 English">Vacuum Color Story</div>
+                        <div class="ko4 Ko">VC7000H, VR9000H 청소기 컬러 스토리</div>
+                        <div class="date4 Date">Oct 07, 2014</div>
                     </div>
                 </div>
             </div>
             </div>
             <div class="line2"></div>
             </div>
+            </div>
+
         </section>
         <br>
         <br>
@@ -382,25 +736,39 @@
         <!-- footer 부분 -->
         <section class="footerPart">
             <footer>
-
+                <img class="footerPartImage" src="./images/FooterPartImages/footerImage.jpg">
             </footer>
         </section>
     </section>
 
     <script>
         window.addEventListener("scroll", function() {
+            console.log(window.scrollY);
 
-            if(this.window.scrollY >= 700){
-                document.querySelector(".rightSideContent3").style = "animation: fadeInUp 1s;";
-                document.querySelector(".rightSideContent4").style = "animation: fadeInUp 1s;";
-            }else if(this.window.scrollY >= 350){
-                document.querySelector(".leftSideImage").style = "animation: fadeInUp 1s;";
-                document.querySelector(".rightSideContent1").style = "animation: fadeInUp 1s;";
-                document.querySelector(".rightSideContent2").style = "animation: fadeInUp 1s;";
+            if(this.window.scrollY >= 11150){
+                document.querySelector("#p7").style = "animation: fadeInUp 1.2s;";
+                document.querySelector("#p8").style = "animation: fadeInUp 1.4s;";
+                document.querySelector("#p9").style = "animation: fadeInUp 1.6s;";
+            }else if(this.window.scrollY >=2450){
+                // document.querySelector(".storiesN1").style = "animation: fadeInUp 2s;";
+                document.querySelector("#p1").style = "animation: fadeInUp 1s;";
+                document.querySelector("#p2").style = "animation: fadeInUp 1.4s;";
+                document.querySelector("#p3").style = "animation: fadeInUp 1.6s;";
+                document.querySelector("#p4").style = "animation: fadeInUp 1.8s;";
+                document.querySelector("#p5").style = "animation: fadeInUp 2s;";
+                document.querySelector("#p6").style = "animation: fadeInUp 2.2s;";
+
+            }else if(this.window.scrollY >= 1200){
+                document.querySelector(".rightSideContent3").style = "animation: fadeInUp 3s;";
+                document.querySelector(".rightSideContent4").style = "animation: fadeInUp 3s;";
+            }else if(this.window.scrollY >= 550){
+                document.querySelector(".leftSideImage").style = "animation: fadeInUp 2s;";
+                document.querySelector(".rightSideContent1").style = "animation: fadeInUp 2s;";
+                document.querySelector(".rightSideContent2").style = "animation: fadeInUp 2s;";
                 
             }
 
-            if(this.window.scrollY < 350){
+            if(this.window.scrollY < 50){
                 document.querySelector(".leftSideImage").style = "all: unset;";
                 document.querySelector(".rightSideContent1").style = "all: unset";
             }
@@ -419,7 +787,14 @@
         btn2.addEventListener('click', function() 
         {     containerBox.classList.remove('open') })
         
+
+        // 페이지 이동 함수
+        function goToNewPage(pageURL) {
+            window.location.href = pageURL;
+        }
         
     </script>
+    <script src="./JS/test.js"></script>
+    <script src="./categories.js"></script>
 </body>
 </html>
